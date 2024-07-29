@@ -1,0 +1,347 @@
+repo_name: abzy-iscool/devops-capstone-project
+report_id: 1fce53b60bf77ee6d13e084619c6b326
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-29T08:18:04+00:00'
+requested_by: abzy-iscool
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project
+  detection_source: Repo Metadata
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.4.46
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/.github/workflows/ci-build.yml
+  detection_source: ".github/workflows/ci-build.yml"
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-15 11:35:23.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.14.0
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: HTTPie
+  description: A command-line HTTP client made for APIs
+  website_url: http://httpie.io
+  version: 3.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/2483/default_7c725e3163bba56f25aea22d0313bada20af0684.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+  vulnerabilities:
+  - name: Werkzeug debugger vulnerable to remote execution when interacting with attacker
+      controlled domain
+    cve_id: CVE-2024-34069
+    cve_url: https://github.com/advisories/GHSA-2g68-c3qc-8985
+    detected_date: May 7
+    severity: high
+    first_patched: 3.0.3
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+  vulnerabilities:
+  - name: Request smuggling leading to endpoint restriction bypass in Gunicorn
+    cve_id: CVE-2024-1135
+    cve_url: https://github.com/advisories/GHSA-w3h3-4rj7-4ph4
+    detected_date: Apr 16
+    severity: high
+    first_patched: 22.0.0
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 22.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abzy-iscool
+  last_updated_on: 2023-07-15 12:04:25.000000000 Z
+- name: Flask-Cors
+  description: A Flask extension adding a decorator for CORS support
+  package_url: https://pypi.org/project/Flask-Cors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19977/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abzy-iscool
+  last_updated_on: 2023-07-15 12:04:25.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: 2.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: abzy-iscool
+  last_updated_on: 2023-07-15 12:04:25.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 6.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: factory-boy
+  description: A versatile test fixtures replacement based on thoughtbot's factory_bot
+    for Ruby
+  package_url: https://pypi.org/project/factory-boy
+  version: 2.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: nose
+  description: Nose extends unittest to make testing easier
+  package_url: https://pypi.org/project/nose
+  version: 1.3.7
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19887/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.3
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 0.20.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/abzy-iscool/devops-capstone-project/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Abhishek J
+  last_updated_on: 2023-07-13 16:40:02.000000000 Z
